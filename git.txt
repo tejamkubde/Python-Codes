@@ -1,0 +1,4 @@
+ git add .
+ git status
+ git commit -m "MEssage to print"
+ git push -u origin main

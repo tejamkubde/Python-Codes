@@ -28,3 +28,8 @@ print(string.split()) #split function splits the string on the basis of spaces a
 
 print(string.count("i")) #count function should have at least on argument and it counts the no. of specified letter in the string
 print(string.zfill(40)) #zfill function just adds the no. of zeros in the beginning of the string if the string doesn't contain the specified length.
+
+# We can convert a sting into list by using 
+str = "TEJAM"
+l = list(str)
+print(l)
