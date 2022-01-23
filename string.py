@@ -5,17 +5,17 @@ print(len(string))
 # print(string[:])
 # print(string[5:])
 # print(string[:5])
-# print(string[11:19])
+print(string[11:19])
 
 
 # finding an character in the string using for loop
-# for i in range(len(string)):
-#     if string[i] == "E":
-#         print(i)
+for i in range(len(string)):
+    if string[i] == "E":
+        print(i)
         
 # finding an character in the string using find method
 char = "e"
-# print(string.find(char))
+print(string.find(char))
 # print(string.rfind(char)) #r is the reverse 
 
 print(string.upper()) #upper case
