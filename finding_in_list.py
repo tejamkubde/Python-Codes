@@ -8,7 +8,6 @@ def find(l):
         else:
             continue
 
-
 n = int(input("Enter the no. of elements you want in your list:- "))
 lst = []
 for i in range(n):
